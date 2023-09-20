@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             const DrawerHeader(
                 decoration: BoxDecoration(color: Colors.redAccent),
-                child: Text("Hola Usuario")),
+                child: Text("Hola Usuario, saludos")),
             ListTile(
               leading: Icon(Icons.home),
               title: const Text("Home"),
